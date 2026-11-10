@@ -7,12 +7,12 @@
   // 1. Global Default Model (Applied to all sub-agents unless overridden below)
   // ------------------------------------------------------------------------------
   "default": {
-    "provider": "google",
-    "model": "gemini-3.8-flash",
+    "provider": "openrouter",
+    "model": "qwen/qwen3.8-max-0902",
     "thinking_level": "medium",
     "fallback": {
-      "provider": "google",
-      "model": "gemini-3.7-flash",
+      "provider": "openrouter",
+      "model": "qwen/qwen3.8-max-0902",
       "thinking_level": "medium"
     }
   },

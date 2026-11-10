@@ -55,7 +55,7 @@ dependencies = [
     # Web, API & Networking
     "fastapi>=0.111.0",
     "uvicorn[standard]>=0.30.1",
-    "httpx>=0.28.1",
+    "httpx[socks]>=0.28.1",
     "requests>=2.31.0",
     "websockets>=12.0",
     "sseclient-py>=1.8.0",
